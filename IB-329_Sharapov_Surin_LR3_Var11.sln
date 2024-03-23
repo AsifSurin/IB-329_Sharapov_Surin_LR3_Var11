@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32630.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IB-329_Sharapov_Surin_LR3_Var11", "IB-329_Sharapov_Surin_LR3_Var11.csproj", "{44FE3093-8831-47B0-9468-7908A58BA744}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44FE3093-8831-47B0-9468-7908A58BA744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44FE3093-8831-47B0-9468-7908A58BA744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44FE3093-8831-47B0-9468-7908A58BA744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44FE3093-8831-47B0-9468-7908A58BA744}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2ADEA4F4-ECF4-4B68-9635-A367770A46A3}
+	EndGlobalSection
+EndGlobal
