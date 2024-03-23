@@ -29,9 +29,10 @@ namespace IB_329_Sharapov_Surin_LR3_Var11
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -54,9 +55,10 @@ namespace IB_329_Sharapov_Surin_LR3_Var11
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 39);
+            this.label1.Location = new System.Drawing.Point(8, 58);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(106, 17);
+            this.label1.Size = new System.Drawing.Size(147, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Левая граница";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -64,26 +66,29 @@ namespace IB_329_Sharapov_Surin_LR3_Var11
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(219, 39);
+            this.label2.Location = new System.Drawing.Point(301, 58);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(114, 17);
+            this.label2.Size = new System.Drawing.Size(156, 25);
             this.label2.TabIndex = 1;
             this.label2.Text = "Правая граница";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 9);
+            this.label3.Location = new System.Drawing.Point(16, 14);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(132, 17);
+            this.label3.Size = new System.Drawing.Size(187, 25);
             this.label3.TabIndex = 2;
             this.label3.Text = "Координаты точек";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(234, 322);
+            this.button1.Location = new System.Drawing.Point(322, 483);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(162, 33);
+            this.button1.Size = new System.Drawing.Size(223, 50);
             this.button1.TabIndex = 3;
             this.button1.Text = "Открыть файл";
             this.button1.UseVisualStyleBackColor = true;
@@ -91,9 +96,10 @@ namespace IB_329_Sharapov_Surin_LR3_Var11
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(402, 322);
+            this.button2.Location = new System.Drawing.Point(553, 483);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(162, 33);
+            this.button2.Size = new System.Drawing.Size(223, 50);
             this.button2.TabIndex = 4;
             this.button2.Text = "Построить график";
             this.button2.UseVisualStyleBackColor = true;
@@ -101,9 +107,10 @@ namespace IB_329_Sharapov_Surin_LR3_Var11
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(234, 361);
+            this.button3.Location = new System.Drawing.Point(322, 542);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(162, 33);
+            this.button3.Size = new System.Drawing.Size(223, 50);
             this.button3.TabIndex = 5;
             this.button3.Text = "Рассчитать интеграл";
             this.button3.UseVisualStyleBackColor = true;
@@ -111,39 +118,59 @@ namespace IB_329_Sharapov_Surin_LR3_Var11
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(113, 36);
+            this.textBox1.Location = new System.Drawing.Point(155, 54);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
+            this.textBox1.Size = new System.Drawing.Size(136, 29);
             this.textBox1.TabIndex = 6;
+            this.textBox1.Text = "-0,5";
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(339, 36);
+            this.textBox2.Location = new System.Drawing.Point(466, 54);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 22);
+            this.textBox2.Size = new System.Drawing.Size(136, 29);
             this.textBox2.TabIndex = 7;
+            this.textBox2.Text = "5";
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(402, 361);
+            this.textBox3.Location = new System.Drawing.Point(553, 542);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(162, 22);
+            this.textBox3.ReadOnly = true;
+            this.textBox3.Size = new System.Drawing.Size(221, 29);
             this.textBox3.TabIndex = 8;
             // 
             // chart1
             // 
-            chartArea2.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea2);
-            legend2.Name = "Legend1";
-            this.chart1.Legends.Add(legend2);
-            this.chart1.Location = new System.Drawing.Point(234, 12);
+            chartArea3.AxisX.Interval = 0.5D;
+            chartArea3.AxisX.Maximum = 5D;
+            chartArea3.AxisX.Minimum = -0.5D;
+            chartArea3.AxisY.Interval = 0.25D;
+            chartArea3.AxisY.Maximum = 2D;
+            chartArea3.AxisY.Minimum = -0.25D;
+            chartArea3.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea3);
+            legend3.Name = "Legend1";
+            this.chart1.Legends.Add(legend3);
+            this.chart1.Location = new System.Drawing.Point(322, 18);
+            this.chart1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chart1.Name = "chart1";
-            series2.ChartArea = "ChartArea1";
-            series2.Legend = "Legend1";
-            series2.Name = "Series1";
-            this.chart1.Series.Add(series2);
-            this.chart1.Size = new System.Drawing.Size(554, 304);
+            series5.BorderWidth = 3;
+            series5.ChartArea = "ChartArea1";
+            series5.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series5.Legend = "Legend1";
+            series5.MarkerBorderWidth = 3;
+            series5.Name = "y = f(x)";
+            series6.ChartArea = "ChartArea1";
+            series6.Legend = "Legend1";
+            series6.Name = "Интеграл";
+            this.chart1.Series.Add(series5);
+            this.chart1.Series.Add(series6);
+            this.chart1.Size = new System.Drawing.Size(826, 456);
             this.chart1.TabIndex = 9;
             this.chart1.Text = "chart1";
             // 
@@ -153,9 +180,11 @@ namespace IB_329_Sharapov_Surin_LR3_Var11
             this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Location = new System.Drawing.Point(12, 404);
+            this.groupBox1.Location = new System.Drawing.Point(16, 606);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(776, 85);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(1067, 128);
             this.groupBox1.TabIndex = 10;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Границы интегрирования";
@@ -166,11 +195,12 @@ namespace IB_329_Sharapov_Surin_LR3_Var11
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.X,
             this.Y});
-            this.dataGridView1.Location = new System.Drawing.Point(10, 29);
+            this.dataGridView1.Location = new System.Drawing.Point(14, 44);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(215, 372);
+            this.dataGridView1.Size = new System.Drawing.Size(296, 558);
             this.dataGridView1.TabIndex = 11;
             // 
             // X
@@ -191,9 +221,9 @@ namespace IB_329_Sharapov_Surin_LR3_Var11
             // 
             // Form3
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 501);
+            this.ClientSize = new System.Drawing.Size(1175, 752);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.chart1);
@@ -202,6 +232,7 @@ namespace IB_329_Sharapov_Surin_LR3_Var11
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form3";
             this.Text = "Form3";
             this.Load += new System.EventHandler(this.Form3_Load);

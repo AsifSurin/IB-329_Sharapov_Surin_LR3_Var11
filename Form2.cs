@@ -66,7 +66,7 @@ namespace IB_329_Sharapov_Surin_LR3_Var11
 
         private void button2_Click(object sender, EventArgs e)
         {
-            StreamWriter sw = new StreamWriter("C:\\Users\\Асиф\\Desktop\\Учебный архив\\Информационные технологии\\Л. Р\\Л. Р. №3\\Координаты.txt");
+            StreamWriter sw = new StreamWriter("C:\\Users\\shara\\OneDrive\\Рабочий стол\\points.txt");
             sw.WriteLine("Координаты:");
             foreach (var item in listBox1.Items)
                 sw.WriteLine(item.ToString());
